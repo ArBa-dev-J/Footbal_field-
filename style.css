@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap");
 /* -----------root--------- */
 
 :root {
   --dark-green: #063302;
-  --light-green: #229904;
+  --light-green: #319418;
   --neon-green: rgb(9, 250, 90);
   --grey: grey;
-  --white:white;
+  --white: white;
   --blue: #1135ff;
   --yellow: #d4c704;
   --orange: #c57906;
@@ -15,57 +15,79 @@
 
 /* -----------FONT--------------- */
 
-.zalando-sans-semiexpanded--bold{
+.zalando-sans-semiexpanded--bold {
   font-family: "Zalando Sans SemiExpanded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
 
-.zalando-sans-semiexpanded--normal{
+.zalando-sans-semiexpanded--normal {
   font-family: "Zalando Sans SemiExpanded", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
 
-.text__white{
-    color:var(--whit);  /* black--for---now and unassigned*/
+.text__white {
+  color: var(--whit); /* black--for---now and unassigned*/
 }
-
-
 
 /* ------------BODY------------ */
 
-body{
-    margin:0;
+body {
+  margin: 0;
 }
 
 /* --------header------- */
 
-.header__flex{
-display: flex;
-justify-content: center;
-/* align-items: last baseline; */
-/* align-self: center; */
-/* flex-direction: column; */
+.header__flex {
+  display: flex;
+  justify-content: center;
+  /* align-items: last baseline; */
+  /* align-self: center; */
+  /* flex-direction: column; */
 }
 
-.header__div--center{
-text-align: center;
-padding-bottom: 1vh;
+.header__div--center {
+  text-align: center;
+  padding-bottom: 1vh;
 }
 
-.header__p--smargin{
-/* padding-bottom: 1vh; */
-/* padding-top: 1vh; */
-/* margin-top: 1vh; */
-margin-bottom: 1vh;
+.header__p--smargin {
+  /* padding-bottom: 1vh; */
+  /* padding-top: 1vh; */
+  /* margin-top: 1vh; */
+  margin-bottom: 1vh;
 }
 
-.header__bg--color{
+.header__bg--color {
   background-color: var(--dark-green);
 }
 
 /* ---------main------------ */
 
+/* -----------Article----------- */
+
+article {
+  background-color: var(--light-green);
+}
+
+.article__bg--form {
+  padding-bottom: 5vh;
+  padding-top: 0.1vh;
+  /* margin-top: 1vh; */
+  /* margin-bottom: 1vh; */
+}
+
+.div__square--form {
+  border: 3px solid var(--white);
+  border-radius: 10px;
+  width: 50%;
+  padding-bottom: 50vh;
+  /* padding-top: 50vh; */
+}
+.div__square--flex {
+  display: flex;
+  justify-content: center;
+}
