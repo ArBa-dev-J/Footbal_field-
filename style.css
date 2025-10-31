@@ -179,4 +179,33 @@ h2{
   display: flex;
   justify-content: center;
   gap: 2rem;
+  padding-bottom:5vh;
+}
+
+/* -------------player--buttons-------- */
+
+button{
+padding:2rem;
+border:none;
+border-radius:20px;
+}
+
+button--goalkeeper{
+
+}
+
+.button--defender{
+background-color:var(--yellow) ;
+}
+
+.button--midfielder{
+background-color: var(--blue);
+}
+
+.button--forward{
+background-color: var(--orange);
+}
+
+.button--Coach{
+background-color: var(--neon-green);
 }
