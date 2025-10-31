@@ -3,7 +3,7 @@
 
 :root {
   --dark-green: #063302;
-  --light-green: #319418;
+  --light-green: #286e16;
   --neon-green: rgb(9, 250, 90);
   --grey: grey;
   --white: white;
@@ -30,7 +30,7 @@
 }
 
 .text__white {
-  color: var(--whit); /* black--for---now and unassigned*/
+  color: var(--white);
 }
 
 /* ------------BODY------------ */
@@ -81,13 +81,102 @@ article {
 }
 
 .div__square--form {
-  border: 3px solid var(--white);
   border-radius: 10px;
   width: 50%;
-  padding-bottom: 50vh;
+  /* padding-bottom: vh; */
   /* padding-top: 50vh; */
 }
+
+.div__square--border {
+  border: 3px solid var(--white);
+}
+
 .div__square--flex {
   display: flex;
   justify-content: center;
+}
+
+.div__square--gradient {
+  background: #399b2a;
+  background: linear-gradient(180deg, rgba(57, 155, 42, 1) 0%, rgba(31, 135, 74, 1) 49%, rgba(8, 115, 52, 1) 98%, rgba(7, 115, 52, 1) 100%);
+}
+
+/* ------------Article----circle--creation------------ */
+
+.div__circle--form {
+  width: 8%;
+  /* padding-bottom:5rem;
+padding-top:5rem; */
+  height: 100px;
+  border-radius: 10rem;
+}
+
+.div__circle--flex {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------Player-avatars------------- */
+.article__div__player--shadow {
+  box-shadow: 4px 12px 20px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 12px 20px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 12px 20px -9px rgba(0, 0, 0, 0.75);
+}
+
+.article__div__player--form {
+  text-align: center;
+  /* background-color: #1135ff; */
+  width: 9rem;
+  padding: 0.2rem;
+  border-radius: 20px;
+}
+
+.article__div__player--coach {
+  position: relative;
+  left: 80vw;
+  top: 7vh;
+  background-color: var(--neon-green);
+}
+
+.article__div__player--goalkeeper {
+  position: relative;
+  top: 33vh;
+  left: 4vw;
+  background-color: var(--grey);
+}
+
+.article__div__player--modfielder {
+  position: absolute;
+  z-index: 1;
+  left: 46.6vw;
+  bottom: 50vh;
+  background-color: var(--blue);
+}
+
+.article__div__player--defender {
+  position: relative;
+  left: 22.0vw;
+  bottom: 23vh;
+  background-color: var(--yellow);
+}
+
+.article__div__player--forward {
+  position: relative;
+  left: 40vw;
+  bottom: 28.2vh;
+  background-color: var(--orange);
+}
+
+/* --------------Section-------------- */
+
+h2{
+  text-align: center;
+}
+
+.section--flex{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
