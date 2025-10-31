@@ -40,3 +40,32 @@
 body{
     margin:0;
 }
+
+/* --------header------- */
+
+.header__flex{
+display: flex;
+justify-content: center;
+/* align-items: last baseline; */
+/* align-self: center; */
+/* flex-direction: column; */
+}
+
+.header__div--center{
+text-align: center;
+padding-bottom: 1vh;
+}
+
+.header__p--smargin{
+/* padding-bottom: 1vh; */
+/* padding-top: 1vh; */
+/* margin-top: 1vh; */
+margin-bottom: 1vh;
+}
+
+.header__bg--color{
+  background-color: var(--dark-green);
+}
+
+/* ---------main------------ */
+
